@@ -1,3 +1,5 @@
+// Copyright (c) 2025 Hideaki Narita
+
 package com.hideakin.gtin13;
 
 public class Gtin13 {
@@ -21,3 +23,4 @@ public class Gtin13 {
 	}
 
 }
+
