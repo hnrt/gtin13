@@ -2,7 +2,7 @@ package com.hideakin.gtin13;
 
 public class Gtin13 {
 
-	public static char ComputeCheckDigit(String s) {
+	public static char computeCheckDigit(String s) {
 		if (s.length() < 12) {
 			throw new RuntimeException("GTIN-13: Too short string.");
 		}

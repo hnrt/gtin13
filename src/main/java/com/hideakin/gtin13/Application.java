@@ -7,7 +7,7 @@ public class Application {
 		for (int i = 0; i < args.length; i++) {
 			String s = args[i];
 			try {
-				char cd = Gtin13.ComputeCheckDigit(s);
+				char cd = Gtin13.computeCheckDigit(s);
 				if (s.length() == 12) {
 					System.out.printf("%s%c\n", s, cd);
 				} else if (s.charAt(12) == cd) {
